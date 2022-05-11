@@ -2,4 +2,4 @@
 
 Scripts for the Systems Neuroscience Course @ Biozentrum
 
-Date: May xx, 2022
+Date: May 23-25, 2022
