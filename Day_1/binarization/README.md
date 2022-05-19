@@ -1,6 +1,4 @@
-# Day tasks
-
-## Python tasks
+## Working with jupyter lab and python
 
 1. We begin by loading the anaconda envrioment. We will work from the command prompt for now. So, in windows start the command terminal for anaconda by typing in "anaconda" in the windows task bar and clicking on "command prompt".
 
