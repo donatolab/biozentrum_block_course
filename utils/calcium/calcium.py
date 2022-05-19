@@ -132,6 +132,12 @@ class Calcium():
         #
         self.recompute_binarization = False
 
+        #
+
+        # first set of parameters for us
+        self.min_width_event_onphase = self.sample_rate // 2  # set minimum withd of an onphase event; default: 0.5 seconds
+        self.min_width_event_upphase = self.sample_rate // 4  # set minimum width of upphase event; default: 0.25 seconds
+
     #
     def load_calcium(self):
 
@@ -321,10 +327,36 @@ class Calcium():
         self.skews = np.array(skews)
 
 
-    def plot_cell_binarization(self, cell_id, scale):
+
+    def plot_cell_binarization_multi_cell(self, cell_ids):
 
         ####################################################
-        fig = plt.figure()
+
+        #
+        t=np.arange(self.F_filtered.shape[1])/self.sample_rate
+
+        for k in range(len(cell_ids)):
+            plt.plot(t,self.F_onphase_bin[cell_ids[k]]*.9 + k*2, linewidth=3, alpha=.4,
+                    c='orange')
+            plt.plot(t,self.F_upphase_bin[cell_ids[k]] + k*2, linewidth=3, alpha=.4,
+                    c='green')
+
+        plt.legend(fontsize=20)
+        plt.title("Cells: "+str(cell_ids))
+        plt.yticks(np.arange(len(cell_ids))*2+0.5, cell_ids)
+        #plt.yticks([])
+
+        plt.xlabel("Time (sec)")
+        plt.ylabel("Cells")
+        plt.xlim(t[0], t[-1])
+        plt.show()
+
+
+
+    def plot_cell_binarization_and_ca(self, cell_id, scale):
+
+        ####################################################
+        #fig = plt.figure()
         t=np.arange(self.F_filtered.shape[1])/self.sample_rate
 
     #     if False:
@@ -332,7 +364,7 @@ class Calcium():
     #             plt.plot(t,self.F_filtered[k]/scale+k*1, linewidth=3, label='filtered', alpha=.8)
 
     #     else:
-        plt.plot(t,(self.F_filtered[cell_id]-np.median(self.F_filtered[cell_id]))/scale, linewidth=3, label='filtered', alpha=.8,
+        plt.plot(t,(self.F[cell_id]-np.median(self.F[cell_id]))/scale, linewidth=3, label='raw', alpha=.8,
                 c='black')
         plt.plot(t,self.F_processed[cell_id]/scale, linewidth=3, label='filtered', alpha=.8,
                 c='blue')
@@ -347,6 +379,7 @@ class Calcium():
                   ", detrend polynomial model order: "+str(self.detrend_model_order))
 
         plt.xlabel("Time (sec)")
+        plt.ylabel("Threshold (proportional)")
         plt.xlim(t[0], t[-1])
         plt.show()
     
@@ -641,8 +674,11 @@ class Calcium():
             self.min_event_amplitude = data['min_event_amplitude']
 
             if self.verbose:
-                print ("   todo: print binarization defaults...")
-            
+                print ("Loaded binarization: ")
+                print ("F_onphase_bin: ", self.F_onphase_bin.shape)
+                print ("F_upphase_bin: ", self.F_upphase_bin.shape)
+
+
         else:
             self.binarize_fluorescence()
 

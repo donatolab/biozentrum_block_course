@@ -45,4 +45,11 @@
 
 
 11. We then load the suite2p data that we downloaded.  You should now see some information about the downalod datasets.  
-For example, the array self.F has two entries (1232, 55740).  What do the 2 values represent? 
+For example, the array self.F has two entries (1232, 55740).  
+- What do the 2 values represent? 
+
+
+12. For the next steps follow the instructions in the jupyter lab notebook...
+
+
+... good luck!
