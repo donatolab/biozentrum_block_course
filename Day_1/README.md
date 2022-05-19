@@ -1,6 +1,4 @@
-# Day tasks
-
-## Suite2p 
+# Day 1 
 
 1. Suite2p presentation (Steffen):
 
