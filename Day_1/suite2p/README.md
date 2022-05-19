@@ -21,3 +21,8 @@ So we type in the command line:
 ... but we don't have our datasets yet.  To download them, follow this link:
 
 https://drive.google.com/drive/folders/1fiyQdL55S3kkAa0EcUj8fpo50o3zhQcy?usp=sharing
+
+
+5.  Once we have our data and suite2p working, we can load the tasks for the day:
+
+`url to Steffen's tasks`
