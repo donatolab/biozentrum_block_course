@@ -3,8 +3,7 @@ import os
 from tqdm import trange, tqdm
 from scipy.signal import butter, lfilter, freqz, filtfilt
 import matplotlib.pyplot as plt
-# from tsnecuda import TSNE
-# import umap
+
 from sklearn.decomposition import PCA
 import pickle as pk
 import scipy
@@ -14,14 +13,14 @@ import parmap
 import networkx as nx
 import sklearn
 import pandas as pd
-import cv2
+#import cv2
 from scipy.signal import butter, sosfilt, sosfreqz
 from sklearn import datasets, linear_model
 from scipy import stats
 
-from utils.wheel import wheel
-from utils.calcium import calcium
-from utils.animal_database import animal_database
+#from utils.wheel import wheel
+#from utils.calcium import calcium
+#from utils.animal_database import animal_database
 
 from sklearn import metrics
 from sklearn import datasets, linear_model
