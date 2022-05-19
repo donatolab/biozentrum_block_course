@@ -11,15 +11,15 @@
 
 
 
-3. Clone the biozentrum blockcourse from github from the anaconda command prompt.
+3. Next, we need to get the biozentrum blockcourse from github.  So we use the "git" function from the anaconda command prompt to "clone" (i.e. copy) the course locally:
 
 `git clone https://github.com/donatolab/biozentrum_block_course`
 
 
 
-4.  Load jupyter lab from the anaconda command prompt.
+4. We are now ready to open the jupyter lab notebook from the anaconda command prompt.
 
-`jupyter lab`
+`jupyter-lab`
 
 
 5. Now we have to find the notebook (or code) that we want to run. So we click on the "notebooks/" folder and then on the Binarize_Suite2p notebook.
