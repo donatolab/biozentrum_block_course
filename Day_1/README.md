@@ -2,14 +2,12 @@
 
 ## Python tasks
 
-1. Start anaconda envrioment. 
-
-`In windows start the command terminal for anaconda by typing in "anaconda" in the windows task bar and clicking on "command prompt".`
+1. Start anaconda envrioment. In windows start the command terminal for anaconda by typing in "anaconda" in the windows task bar and clicking on "command prompt".
 
 
 2. Clone the biozentrum blockcourse from github.
 
-`git clone https://github.com/donatolab/biozentrum_block_course'
+`git clone https://github.com/donatolab/biozentrum_block_course`
 
 3.  Load jupyter lab from the command prompts
 
