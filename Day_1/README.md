@@ -30,7 +30,7 @@
 6.  Python is telling us that it does not know the name of some of our requested packages. This usually means we forgot to install them. So, we now
 install the missing packages using the `pip` package manager. 
 
-7.  So, we type in "pip install PACKAGE" for all the missing packages and the pip package manager 
+7.  So, we type in "pip install PACKAGE" in a jupyter lab cell for every missing package and the pip package manager 
 will find the package on the internet for us and install it... 
 
 `!pip install matplotlib`
