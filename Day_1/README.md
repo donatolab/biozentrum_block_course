@@ -15,10 +15,13 @@
 `jupyter lab`
 
 
-4. Try to run the first cell of the jupyter - you should get an error
+4. Now we have to find the notebook (or code) that we want to run. So we click on the "notebooks/" folder and then on the Binarize_Suite2p notebook.
 
 
-5. Install missing packages using pip. We type in "pip install PACKAGE" and the pip package manager finds the package for us and installs it.
+5. Next, we are ready to try and run our first cell of code.  We click on the top most "cell" and then in the "run" (triangle) button at top of the notebook.
+
+
+6. Install missing packages using pip. We type in "pip install PACKAGE" and the pip package manager finds the package for us and installs it.
 
 `!pip install matplotlib`
 `!pip install scipy`
@@ -29,27 +32,27 @@
 `!pip install pandas`
 
 
-6. Re-Run the first cell in the notebook. You should not get any errors now.
+7. Re-Run the first cell in the notebook. You should not get any errors now.
 
 
-7. Ok, good so far!   Next we get the data that we require for the analysis. 
+8. Ok, good so far!   Next we get the data that we require for the analysis. 
 
 
-8. We start by runnign the jupyter notebook cell that links to our google data drive. Once there we right click on the file to download it.  Make sure you remember the location of where the file is downloaded.
+9. We start by runnign the jupyter notebook cell that links to our google data drive. Once there we right click on the file to download it.  Make sure you remember the location of where the file is downloaded.
 
 
-9. Next we unzip the file by using the Windows folder navigator, clikcing on the file and unzipping it to a specific location (we can use the current location if that's easiest).
+10. Next we unzip the file by using the Windows folder navigator, clikcing on the file and unzipping it to a specific location (we can use the current location if that's easiest).
 
 
-10. We then proceed to make load our Calcium processing pipeline by making a calcium object 'c'.
+11. We then proceed to make load our Calcium processing pipeline by making a calcium object 'c'.
 
 
-11. We then load the suite2p data that we downloaded.  You should now see some information about the downalod datasets.  
+12. We then load the suite2p data that we downloaded.  You should now see some information about the downalod datasets.  
 For example, the array self.F has two entries (1232, 55740).  
 - What do the 2 values represent? 
 
 
-12. For the next steps follow the instructions in the jupyter lab notebook...
+13. For the next steps follow the instructions in the jupyter lab notebook...
 
 
 ... good luck!
