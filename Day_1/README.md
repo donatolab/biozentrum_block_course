@@ -2,10 +2,10 @@
 
 ## Python tasks
 
-1. Start anaconda envrioment. In windows start the command terminal for anaconda by typing in "anaconda" in the windows task bar and clicking on "command prompt".
+1. We begin by loading the anaconda envrioment. We will work from the command prompt for now. So, in windows start the command terminal for anaconda by typing in "anaconda" in the windows task bar and clicking on "command prompt".
 
 
-2.  First thing, we need to activate our anaconda environment that we want to work in.  
+2. First thing, we need to activate our anaconda environment that we want to work in.  
 
 `conda activate suite2p`
 
