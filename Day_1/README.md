@@ -16,7 +16,7 @@
 4. Try to run the first cell of the jupyter - you should get an error
 
 
-5. Install missing packages using pip by typing in the 
+5. Install missing packages using pip. We type in "pip install PACKAGE NAME" and the pip package manager finds the package for us and installs it.
 
 `!pip install matplotlib`
 `!pip install scipy`
@@ -26,5 +26,4 @@
 `!pip install networkx`
 `!pip install pandas`
 
-
-
+6. Re-Run the first cell in the notebook. You should not get any errors now.
