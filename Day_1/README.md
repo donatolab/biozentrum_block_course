@@ -18,7 +18,7 @@
 
 5. Install missing packages using pip by typing in the 
 
-`!pip install matplotlib
+`!pip install matplotlib \n
 !pip install scipy
 !pip install tqdm
 !pip install sklearn
