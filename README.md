@@ -1,5 +1,17 @@
 # biozentrum_block_course
 
-Scripts for the Systems Neuroscience Course @ Biozentrum
+Presentations, dataset and scripts for Systems Neuroscience Course @ Biozentrum
 
 Date: May 23-25, 2022
+
+1. All presentations:
+
+`url`
+
+2. Tasks and homework: 
+
+`url`
+
+3. Data for all 3 days:
+
+https://drive.google.com/drive/folders/1fiyQdL55S3kkAa0EcUj8fpo50o3zhQcy?usp=sharing
