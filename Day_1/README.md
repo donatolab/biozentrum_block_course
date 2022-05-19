@@ -27,8 +27,8 @@
 ... and don't worry, crashes are part of coding life :)
 
 
-6.  Python is telling us that it does not know the name of some of our requested packages. This usually means we forgot to install them. So, we next
-install missing packages using pip. We type in "pip install PACKAGE" and the pip package manager finds the package for us and installs it.
+6.  Python is telling us that it does not know the name of some of our requested packages. This usually means we forgot to install them. So, we now
+install the missing packages using the `pip` package manager. We type in "pip install PACKAGE" and the pip package manager finds the package for us and installs it.
 
 `!pip install matplotlib`
 `!pip install scipy`
