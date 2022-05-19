@@ -20,7 +20,7 @@
 
 5. Next, we are ready to try and run our first cell of code.  We click on the top most "cell" and then in the "run" (triangle) button at top of the notebook. 
 
-...But, we get our first crash!  Congratulations! ... and don't worry, crashes are part of coding life :)
+... but, we get our first crash :/ Congratulations! ... and don't worry, crashes are part of coding life :)
 
 
 6.  Python is telling us that it does not know the name of some of our requested packages. This usually means we forgot to install them. So, we next
