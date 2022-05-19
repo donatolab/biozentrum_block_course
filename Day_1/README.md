@@ -61,6 +61,7 @@ to a specific location (we can use the current location if that's easiest).
 
 13. We then load the suite2p data that we downloaded.  You should now see some information about the downalod datasets.  
 For example, the array self.F has two entries (1232, 55740).  
+
 `Pop quiz: what do the 2 values represent?`
 
 
