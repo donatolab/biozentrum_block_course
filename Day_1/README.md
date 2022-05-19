@@ -28,7 +28,9 @@
 
 
 6.  Python is telling us that it does not know the name of some of our requested packages. This usually means we forgot to install them. So, we now
-install the missing packages using the `pip` package manager. We type in "pip install PACKAGE" for all the missing packages and the pip package manager 
+install the missing packages using the `pip` package manager. 
+
+7.  So, we type in "pip install PACKAGE" for all the missing packages and the pip package manager 
 will find the package on the internet for us and install it... 
 
 `!pip install matplotlib`
@@ -40,27 +42,27 @@ will find the package on the internet for us and install it...
 `!pip install pandas`
 
 
-7. Re-Run the first cell in the notebook. You should not get any errors now.
+8. Re-Run the first cell in the notebook. You should not get any errors now.
 
 
-8. Ok, good so far!   Next we get the data that we require for the analysis. 
+9. Ok, good so far!   Next we get the data that we require for the analysis. 
 
 
-9. We start by runnign the jupyter notebook cell that links to our google data drive. Once there we right click on the file to download it.  Make sure you remember the location of where the file is downloaded.
+10. We start by runnign the jupyter notebook cell that links to our google data drive. Once there we right click on the file to download it.  Make sure you remember the location of where the file is downloaded.
 
 
-10. Next we unzip the file by using the Windows folder navigator, clikcing on the file and unzipping it to a specific location (we can use the current location if that's easiest).
+11. Next we unzip the file by using the Windows folder navigator, clikcing on the file and unzipping it to a specific location (we can use the current location if that's easiest).
 
 
-11. We then proceed to make load our Calcium processing pipeline by making a calcium object 'c'.
+12. We then proceed to make load our Calcium processing pipeline by making a calcium object 'c'.
 
 
-12. We then load the suite2p data that we downloaded.  You should now see some information about the downalod datasets.  
+13. We then load the suite2p data that we downloaded.  You should now see some information about the downalod datasets.  
 For example, the array self.F has two entries (1232, 55740).  
 - What do the 2 values represent? 
 
 
-13. For the next steps follow the instructions in the jupyter lab notebook...
+14. For the next steps follow the instructions in the jupyter lab notebook...
 
 
 ... good luck!
