@@ -22,7 +22,9 @@
 
 ... but, we get our first crash :/ 
 
-Congratulations! ... and don't worry, crashes are part of coding life :)
+                  Congratulations! 
+
+... and don't worry, crashes are part of coding life :)
 
 
 6.  Python is telling us that it does not know the name of some of our requested packages. This usually means we forgot to install them. So, we next
