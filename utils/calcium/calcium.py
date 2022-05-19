@@ -146,7 +146,7 @@ class Calcium():
             self.data_dir = os.path.join(self.data_dir,
                                          "suite2p", 
                                          "plane0")  
-        
+
     #
     def load_suite2p(self):
         #print ('')
@@ -154,7 +154,7 @@ class Calcium():
         suffix1 = 'suite2p'
         suffix2 = 'plane0'
         
-        self.fix_data_dir()
+        # self.fix_data_dir()
         
         #
         self.F = np.load(os.path.join(self.data_dir,
@@ -609,8 +609,8 @@ class Calcium():
 
     def load_binarization(self):
 
-        self.fix_data_dir()
-        
+        # self.fix_data_dir()
+
         #
         fname_out = os.path.join(self.data_dir,'binarized_traces.npz')
         
