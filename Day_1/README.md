@@ -18,10 +18,12 @@
 4. Now we have to find the notebook (or code) that we want to run. So we click on the "notebooks/" folder and then on the Binarize_Suite2p notebook.
 
 
-5. Next, we are ready to try and run our first cell of code.  We click on the top most "cell" and then in the "run" (triangle) button at top of the notebook.
+5. Next, we are ready to try and run our first cell of code.  We click on the top most "cell" and then in the "run" (triangle) button at top of the notebook. 
+But, we get our first crash!  Congratulations! ... and don't worry, crashes are part of coding life :)
 
 
-6. Install missing packages using pip. We type in "pip install PACKAGE" and the pip package manager finds the package for us and installs it.
+6.  Python is telling us that it does not know the name of some of our requested packages. This usually means we forgot to install them. So, we next
+install missing packages using pip. We type in "pip install PACKAGE" and the pip package manager finds the package for us and installs it.
 
 `!pip install matplotlib`
 `!pip install scipy`
