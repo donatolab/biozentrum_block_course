@@ -1,6 +1,6 @@
 # Day 1 
 
-1.  Link to Steffen's presentation: <a href="https://github.com/donatolab/biozentrum_block_course/tree/main/Day_1/Tutorial_suite2p.pdf">Tutorial_suite2p</a>
+1. Link to Steffen's presentation: <a href="https://github.com/donatolab/biozentrum_block_course/tree/main/Day_1/Tutorial_suite2p.pdf">Tutorial_suite2p</a>
 
 
 2. Link to Catalin's presentation: <a href="https://github.com/donatolab/biozentrum_block_course/tree/main/Day_1/Tutorial_binarization.pdf">Tutorial_binarization</a>
