@@ -20,4 +20,5 @@ So we type in the command line:
 4. If all goes well you will get the suite2p GUI!
 ... but we don't have our datasets yet.  To download them, follow this link: <a  target='_blank' href="https://drive.google.com/drive/folders/1fiyQdL55S3kkAa0EcUj8fpo50o3zhQcy?usp=sharing">Data</a>
 
-5.  Once we have our data and suite2p working, we can load Steffen's tasks for the day
+5.  Once we have our data and suite2p working, we can load Steffen's tasks for the day: <a href="https://github.com/donatolab/biozentrum_block_course/tree/main/Day_1/Tasks_Day_1.pdf">Tasks_Day_1</a>
+
