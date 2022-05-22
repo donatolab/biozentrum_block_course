@@ -18,10 +18,7 @@ So we type in the command line:
 
 
 4. If all goes well you will get the suite2p GUI!
-... but we don't have our datasets yet.  To download them, follow this link:
-
-https://drive.google.com/drive/folders/1fiyQdL55S3kkAa0EcUj8fpo50o3zhQcy?usp=sharing
-
+... but we don't have our datasets yet.  To download them, follow this link: <a  target='_blank' href="https://drive.google.com/drive/folders/1fiyQdL55S3kkAa0EcUj8fpo50o3zhQcy?usp=sharing">Data</a>
 
 5.  Once we have our data and suite2p working, we can load the tasks for the day:
 
