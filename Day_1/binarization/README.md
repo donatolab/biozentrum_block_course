@@ -73,5 +73,4 @@ For example, the array self.F has two entries (1232, 55740).
 
 15. For the next steps follow the instructions in the jupyter lab notebook...
 
-
 ... good luck!
