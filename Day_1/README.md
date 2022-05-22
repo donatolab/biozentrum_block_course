@@ -1,6 +1,6 @@
 # Day 1 
 
-<a href="https://github.com/donatolab/biozentrum_block_course/tree/main/Day_1/Tasks_Day_1.pdf>test</a>
+<a href="https://github.com/donatolab/biozentrum_block_course/tree/main/Day_1/Tasks_Day_1.pdf">test</a>
 
 Data for all 3 days:
 
