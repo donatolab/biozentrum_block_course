@@ -74,4 +74,10 @@ For example, the array self.F has two entries (1232, 55740).
 15. For the next steps follow the instructions in the jupyter lab notebook... good luck!
 
 
-16. Also, don't forget to fill out responses to Day 1 homework as you work through the jupyter notebook tasks: <a href="https://github.com/donatolab/biozentrum_block_course/tree/main/Day_1/Tasks_Day_1.pdf">Tasks_Day_1</a>
+16. ... we also added 2 videos from Steffen and Nathalie's [ca] data to see how we could eventually use the data to decode locations in space!
+
+
+17. Also, don't forget to fill out responses to Day 1 homework as you work through the jupyter notebook tasks: <a href="https://github.com/donatolab/biozentrum_block_course/tree/main/Day_1/Tasks_Day_1.pdf">Tasks_Day_1</a>
+
+
+
